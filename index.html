@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday My Love</title>
+
+    <style>
+        body {
+            background-color: #ffe6f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #ff4d88;
+            font-size: 45px;
+        }
+
+        p {
+            color: #333;
+            font-size: 22px;
+        }
+
+        .box {
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px #ff99bb;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        img {
+            width: 250px;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #ff4d88;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e6005c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Happy Birthday, My Love ❤️</h1>
+
+        <p>
+            Today is a very special day because it is the birthday of the person
+            who makes my life so beautiful.
+        </p>
+
+        <p>
+            I am so lucky to have you in my life. You are my happiness,
+            my strength, and my favorite person.
+        </p>
+
+        <p>
+            I hope your birthday is filled with love, joy, smiles, and beautiful memories.
+        </p>
+
+        <button onclick="showMessage()">Click Here</button>
+
+        <p id="secretMessage"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("secretMessage").innerHTML =
+            "I love you so much. Happy Birthday, my handsome ❤️🎂";
+        }
+    </script>
+
+</body>
+</html>
